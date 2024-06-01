@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/*
+ Copyright © Nogara. All rights reserved.
+*/
+-->
+<listing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
+    <columns name="sales_order_columns">
+        <column name="items_column" class="Nogara\OrderItemsGrid\Ui\Component\Listing\Column\ItemsColumn">
+            <settings>
+                <filter>false</filter>
+                <label translate="true">Items</label>
+                <bodyTmpl>ui/grid/cells/html</bodyTmpl>
+                <sorting>desc</sorting>
+            </settings>
+        </column>
+    </columns>
+</listing>
